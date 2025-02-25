@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
-#include "hardware/adc.h"
 #include "hardware/pwm.h"
 #include "hardware/i2c.h"
 #include "ssd1306.h"
@@ -10,11 +9,7 @@
 #define BOTAO_B 6
 #define buzzer_1 10
 #define buzzer_2 21
-#define AZUL 12
-#define VERDE 11
 #define VERMELHO 13
-#define VERTICALY 26
-#define HORIZONTALX 27
 #define SELEC 22
 #define PWM_WRAP 4095
 #define PWM_CLK_DIV 30.52f
@@ -40,16 +35,6 @@ void pwm_init_gpio(uint gpio, uint wrap, float clkdiv) {
 }
 
 void inicia_pinos() {
-    adc_init();
-    adc_gpio_init(VERTICALY);
-    adc_gpio_init(HORIZONTALX);
-
-    gpio_init(VERDE);
-    gpio_set_dir(VERDE, GPIO_OUT);
-
-    gpio_init(AZUL);
-    gpio_set_dir(AZUL, GPIO_OUT);
-
     gpio_init(VERMELHO);
     gpio_set_dir(VERMELHO, GPIO_OUT);
 
