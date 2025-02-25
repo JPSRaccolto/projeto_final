@@ -47,7 +47,6 @@ pico_enable_stdio_usb(projeto_final_v2 1)
 # Add the standard library to the build
 target_link_libraries(projeto_final_v2
         pico_stdlib
-        hardware_adc
         hardware_pwm
         hardware_i2c)
 
