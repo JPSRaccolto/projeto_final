@@ -108,7 +108,7 @@ Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 5. Abra um Pull Request.
 
 ## 📽️ Demonstração em Vídeo
-- O vídeo de demonstração do projeto pode ser visualizado aqui: [Drive](https://drive.google.com/file/d/1PxKWCw_stxOIgTNSCgIACTfDbgvxRU92/view?usp=sharing)
+- O vídeo de demonstração do projeto pode ser visualizado aqui: [Drive](https://youtu.be/nn0B_-Tjze4)
 
 ## 💡 Considerações Finais
 Este projeto oferece uma ótima oportunidade para consolidar conhecimentos sobre manipulação de hardware,
